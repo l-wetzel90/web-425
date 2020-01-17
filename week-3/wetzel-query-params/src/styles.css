@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+/*
+============================================
+; Title:  Exercise 3.2
+; Author: Loren Wetzel
+; Date:   17 January 2020
+; Modified By:
+; Description: how to pass data between routes
+;   and how to gracefully handle 404 errors
+;===========================================
+*/
+
+@import "~bootstrap/dist/css/bootstrap.css"
