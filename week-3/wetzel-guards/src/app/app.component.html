@@ -1,0 +1,29 @@
+<!--
+/*
+============================================
+; Title:  Exercise 3.4
+; Author: Loren Wetzel
+; Date:   19 January 2020
+; Modified By:
+; Description: mediate the navigation to and
+;   from a route with route guards
+;===========================================
+*/
+
+-->
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a [routerLink]="['/']" class="nav-link">Home</a>
+    </li>
+    <li>
+      <a [routerLink]="['/product']" class="nav-link">Product Detail</a>
+    </li>
+    <li>
+      <a [routerLink]="['/login']" class="nav-link">Login</a>
+    </li>
+  </ul>
+</nav>
+<br>
+<router-outlet></router-outlet>
