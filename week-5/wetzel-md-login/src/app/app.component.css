@@ -1,0 +1,24 @@
+/*
+============================================
+; Title:  Exercise 5.3
+; Author: Loren Wetzel
+; Date:   3 February 2020
+; Modified By:
+; Description: build a login screen with Material Cards
+;===========================================
+*/
+
+/* Forms */
+.frm-login { width: 50%;  margin: 0 auto; }
+.frm-login-panel { border: 1px solid black; }
+.frm-login-header { background-color: orange; }
+.frm-login-toolbar { background-color: orange; color: white; }
+.frm-login-body { display: flex; flex-direction: column; margin-top: 15px; }
+.btn-login { background-color: blueviolet; color: white; }
+.frm-login-actions { text-align: right; }
+
+/* Global */
+.wrapper { width: 100%; margin-top: 10%; }
+
+
+

@@ -1,0 +1,52 @@
+<!-- /*
+============================================
+; Title:  Exercise 5.3
+; Author: Loren Wetzel
+; Date:   3 February 2020
+; Modified By:
+; Description: build a login screen with Material Cards
+;===========================================
+*/ -->
+
+<mat-toolbar class="menu" role="header" color="primary">
+  <mat-toolbar-row>
+    <button mat-button class="mat-button">
+      <!-- <mat-icon>web</mat-icon> -->
+      <span style="margin-left: 5px !important;">WEB 425</span>
+    </button>
+    <button mat-button class="mat-button">
+      About
+    </button>
+    <button mat-button class="mat-button">
+      Contact Us
+    </button>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<div class="wrapper">
+  <div class="frm-login">
+    <mat-card class="login-panel frm-login-panel">
+      <mat-card-header class="frm-login-header">
+        <mat-toolbar class="frm-login-toolbar">
+          Login Form
+        </mat-toolbar>
+      </mat-card-header>
+
+      <mat-card-content class="frm-login-body">
+        <mat-form-field>
+          <input type="text" matInput [(ngModel)]="username" placeholder="Username">
+        </mat-form-field>
+
+        <mat-form-field>
+          <input type="password" matInput [(ngModel)]="password" placeholder="Password">
+        </mat-form-field>
+
+      </mat-card-content>
+
+      <mat-card-actions class="frm-login-actions">
+        <button mat-raised-button class="btn-login" (click)="onClear()">Cancel</button>
+        <button mat-raised-button class="btn-login" (click)="onSubmit()">Sign In</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>

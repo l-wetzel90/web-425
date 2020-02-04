@@ -1,0 +1,23 @@
+/*
+============================================
+; Title:  Exercise 5.2
+; Author: Loren Wetzel
+; Date:   3 February 2020
+; Modified By:
+; Description: implement navigation using Material Design
+;===========================================
+*/
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  color: white;
+}
+
+.wrapper {
+  padding: 70px 70 px 0;
+  display: block;
+}
