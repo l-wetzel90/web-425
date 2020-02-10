@@ -1,3 +1,13 @@
+/*
+============================================
+; Title:  Exercise 5.4
+; Author: Loren Wetzel
+; Date:   10 February 2020
+; Modified By:
+; Description: build layout pages using the flex-layout
+;===========================================
+*/
+
 import { Component } from '@angular/core';
 
 @Component({

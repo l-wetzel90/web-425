@@ -1,0 +1,16 @@
+/*
+============================================
+; Title:  Exercise 5.4
+; Author: Loren Wetzel
+; Date:   10 February 2020
+; Modified By:
+; Description: build layout pages using the flex-layout
+;===========================================
+*/
+
+.parent {  margin: 65px auto 15px; }
+.left { background-color: cyan; }
+.right { background-color: yellow; }
+h2{
+  text-align: center;
+}
