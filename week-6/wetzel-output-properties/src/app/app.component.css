@@ -1,0 +1,28 @@
+/*
+============================================
+; Title:  Exercise 6.3
+; Author: Loren Wetzel
+; Date:   10 February 2020
+; Modified By:
+; Description: output properties
+;===========================================
+*/
+
+.sideNav {
+  width: 20em;
+  background-color: antiquewhite;
+}
+
+.wrapper {
+  display: flex;
+  /* width: 100%; */
+  min-height: 500px;
+  /* background-color: white; */
+}
+
+.mainContent {
+  /* height: 200px; */
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+}
