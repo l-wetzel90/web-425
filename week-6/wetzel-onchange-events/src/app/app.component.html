@@ -1,0 +1,49 @@
+<!-- /*
+============================================
+; Title:  Assignment 6.4
+; Author: Loren Wetzel
+; Date:   10 February 2020
+; Modified By:
+; Description: component lifecycle and onChange() events.
+;===========================================
+*/
+
+ -->
+
+<mat-toolbar class="menu" role="header" color="primary">
+  <mat-toolbar-row>
+    <button mat-button class="mat-button">
+      <!-- <mat-icon>web</mat-icon> -->
+      <span style="margin-left: 5px !important;">WEB 425</span>
+    </button>
+    <button mat-button class="mat-button">
+      About
+    </button>
+    <button mat-button class="mat-button">
+      Contact Us
+    </button>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<mat-sidenav-container class="wrapper">
+  <mat-sidenav class="sideNav" mode="side" opened></mat-sidenav>
+  <mat-sidenav-content class="mainContent">
+
+<div class="parent">
+
+  <h2>Parent</h2>
+  <div>
+    Greeting: <input type="text" [(ngModel)]="myGreeting">
+  </div>
+
+  <div>
+    User Name: <input type="text" [(ngModel)]="myUser.name">
+  </div>
+
+  <app-child [greeting]="myGreeting" [user]="myUser"></app-child>
+</div>
+
+</mat-sidenav-content>
+
+</mat-sidenav-container>
+

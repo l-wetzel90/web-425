@@ -1,0 +1,30 @@
+/*
+============================================
+; Title:  Assignment 6.4
+; Author: Loren Wetzel
+; Date:   10 February 2020
+; Modified By:
+; Description: component lifecycle and onChange() events.
+;===========================================
+*/
+
+.parent{background: deeppink;}
+
+.sideNav {
+  width: 20em;
+  background-color: antiquewhite;
+}
+
+.wrapper {
+  display: flex;
+  /* width: 100%; */
+  min-height: 500px;
+  /* background-color: white; */
+}
+
+.mainContent {
+  /* height: 200px; */
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+}
