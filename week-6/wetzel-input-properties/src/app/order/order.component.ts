@@ -1,3 +1,13 @@
+/*
+============================================
+; Title:  Exercise 6.2
+; Author: Loren Wetzel
+; Date:   10 February 2020
+; Modified By:
+; Description: input properties
+;===========================================
+*/
+
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
