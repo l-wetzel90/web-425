@@ -1,0 +1,22 @@
+/*
+============================================
+; Title:  Exercise 7.2
+; Author: Loren Wetzel
+; Date:   15 February 2020
+; Modified By:
+; Description: template-driven forms in an Angular application
+;===========================================
+*/
+
+mat-sidenav {
+  width: 20%;
+}
+
+.form-example {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-example > * {
+  width: 65%;
+}

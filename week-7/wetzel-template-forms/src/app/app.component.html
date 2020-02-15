@@ -1,0 +1,64 @@
+<!-- /*
+============================================
+; Title:  Exercise 7.2
+; Author: Loren Wetzel
+; Date:   15 February 2020
+; Modified By:
+; Description: template-driven forms in an Angular application
+;===========================================
+*/ -->
+
+<mat-toolbar class="menu" role="header" color="primary">
+  <mat-toolbar-row>
+    <button mat-button class="mat-button">
+      <!-- <mat-icon>web</mat-icon> -->
+      <span style="margin-left: 5px !important;">WEB 425</span>
+    </button>
+    <button mat-button class="mat-button">
+      About
+    </button>
+    <button mat-button class="mat-button">
+      Contact Us
+    </button>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<mat-sidenav-container>
+
+  <mat-sidenav mode="side" opened></mat-sidenav>
+
+  <mat-sidenav-content>
+
+    <div class="form-example">
+      <mat-card>
+        <form class="form-example" #f="ngForm" (ngSubmit)="onSubmit(f.value); f.reset()">
+
+          <mat-form-field>
+            <input matInput placeholder="User Name" ngModel name="username" type="text">
+          </mat-form-field>
+
+          <mat-form-field>
+            <input matInput placeholder="SSN" ngModel name="ssn" type="text">
+          </mat-form-field>
+
+          <div class="form-example" ngModelGroup="passwordsGroup">
+            <mat-form-field>
+              <input matInput placeholder="Password" name="password" ngModel type="password">
+            </mat-form-field>
+
+            <mat-form-field>
+              <input matInput placeholder="Confirm Password" name="pconfirm" ngModel type="password">
+            </mat-form-field>
+          </div>
+
+          <button mat-raised-button color="accent" type="submit">Submit</button>
+
+        </form>
+
+      </mat-card>
+    </div>
+
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+
