@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'wetzel-form-validation';
+
+  onSubmit(formData){
+    console.log(formData);
+  }
 }

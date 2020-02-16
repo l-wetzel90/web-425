@@ -1,0 +1,25 @@
+mat-sidenav {
+  width: 20%;
+}
+
+mat-card {
+  min-height: 30em;
+}
+
+.form-example {
+  display: flex;
+  flex-direction: column;
+  /* min-height: 10em; */
+}
+
+/* .form-example > * {
+  width: 65%;
+} */
+
+.error {
+  color: red;
+}
+
+.hasError {
+  border: 1px solid red;
+}
