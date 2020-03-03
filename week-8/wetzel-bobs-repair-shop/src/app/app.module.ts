@@ -5,15 +5,16 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 
-import { MatButtonModule, MatIconModule, MatMenuModule, MatToolbarModule } from '@angular/material';
-import { FlexLayoutModule } from "@angular/flex-layout";
+import { MatButtonModule, MatSidenavModule, MatIconModule, MatMenuModule, MatToolbarModule } from '@angular/material';
 import { HomeComponent } from './home/home.component';
+import { ServicesComponent } from './repair-services/repair-services.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ToolbarComponent,
-    HomeComponent
+    HomeComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
@@ -22,7 +23,7 @@ import { HomeComponent } from './home/home.component';
     MatIconModule,
     MatMenuModule,
     MatToolbarModule,
-    FlexLayoutModule
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]

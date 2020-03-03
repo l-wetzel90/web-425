@@ -2,5 +2,4 @@
 angular workspace
 
 #contributors 
-Professor Eltayeb - Bellevue University
 Loren Wetzel - Bellevue University 
