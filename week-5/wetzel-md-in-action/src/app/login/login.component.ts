@@ -58,6 +58,18 @@ import { FormControl } from '@angular/forms';
 })
 export class LoginComponent implements OnInit {
 
+  username: string
+  password: string
+
+  onClear() {
+    this.username = ''
+    this.password = ''
+  }
+
+  onSubmit() {
+    alert('Username: ' + this.username + '\nPassword: ' + this.password)
+  }
+
   constructor() { }
 
   ngOnInit(): void {
