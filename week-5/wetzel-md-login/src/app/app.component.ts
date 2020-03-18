@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'wetzel-md-login';
+
+  username: string;
+  password: string;
+
+  onClear() {
+    this.username = '';
+    this.password = '';
+  }
+
+  onSubmit() {
+    alert('Username: ' + this.username + '\nPassword: ' + this.password)
+  };
 }

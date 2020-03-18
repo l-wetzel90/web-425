@@ -28,12 +28,14 @@
 
           <div>
             Phone Number:
-            <input type="text" name="telephone" ngModel
-                    required
-                    pattern="[0-9]*"
-                    minlength="10"
-                    #phone="ngModel"
-              [class.hasError]="phone.isvalid && phone.touched">
+            <input type="text"
+              name="telephone"
+              ngModel
+              required
+              pattern="[0-9]*"
+              minlength="10"
+              #phone="ngModel"
+              [class.hasError]="phone.invalid && phone.touched">
 
             &nbsp;
             <button mat-raised-button color="accent" type="submit" [disabled]="f.invalid">Submit</button>

@@ -10,7 +10,8 @@
 */
 
 export class Fruit {
-  constructor(public id: number,
+  constructor(
+    public id: number,
     public name: string,
     public color: string) {}
 }
